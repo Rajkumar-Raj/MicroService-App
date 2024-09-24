@@ -29,7 +29,7 @@ var app = builder.Build();
 
 //app.MapControllers();
 
-app.MapGet("/", () => { return "Hello World!!!"; });
+app.MapGet("/", () => "Hello World!!!");
 
 app.UseOcelot().GetAwaiter().GetResult();
 app.Run();
