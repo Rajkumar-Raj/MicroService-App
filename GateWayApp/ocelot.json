@@ -9,7 +9,7 @@
           "Port": 7771
         }
       ],
-      "UpstreamPathTemplate": "/api/CouponsAPI",
+      "UpstreamPathTemplate": "/api/Coupons",
       "UpstreamHttpMethod": [ "GET" ]
     }
   ],

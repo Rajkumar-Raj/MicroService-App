@@ -11,7 +11,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{83
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CouponAPI", "CouponAPI\CouponAPI.csproj", "{ECF4C453-9640-43A5-ADD0-3F3C59DF7D15}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GateWayApp", "GateWayApp\GateWayApp.csproj", "{F5A5E3B3-E2EC-4C86-A34A-1C4BF079E63B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GateWayApp", "GateWayApp\GateWayApp.csproj", "{F5A5E3B3-E2EC-4C86-A34A-1C4BF079E63B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9250E9DC-EA0B-4FBC-A16D-F3820B5889EE}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
