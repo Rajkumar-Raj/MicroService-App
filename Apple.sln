@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34902.65
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GateWay", "GateWay", "{4CDBD440-2FD0-4299-92C3-8F82B8A3CF40}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration", "Integration", "{C4A404ED-AD85-4A22-B047-FAE27F39A2DF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{83F0D14B-2950-47D8-81E1-093C1323CFCC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CouponAPI", "CouponAPI\CouponAPI.csproj", "{ECF4C453-9640-43A5-ADD0-3F3C59DF7D15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GateWayApp", "GateWayApp\GateWayApp.csproj", "{F5A5E3B3-E2EC-4C86-A34A-1C4BF079E63B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECF4C453-9640-43A5-ADD0-3F3C59DF7D15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECF4C453-9640-43A5-ADD0-3F3C59DF7D15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECF4C453-9640-43A5-ADD0-3F3C59DF7D15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECF4C453-9640-43A5-ADD0-3F3C59DF7D15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5A5E3B3-E2EC-4C86-A34A-1C4BF079E63B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5A5E3B3-E2EC-4C86-A34A-1C4BF079E63B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5A5E3B3-E2EC-4C86-A34A-1C4BF079E63B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5A5E3B3-E2EC-4C86-A34A-1C4BF079E63B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ECF4C453-9640-43A5-ADD0-3F3C59DF7D15} = {83F0D14B-2950-47D8-81E1-093C1323CFCC}
+		{F5A5E3B3-E2EC-4C86-A34A-1C4BF079E63B} = {4CDBD440-2FD0-4299-92C3-8F82B8A3CF40}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B098CBA2-6360-4331-9D21-D8D93710A1A9}
+	EndGlobalSection
+EndGlobal
