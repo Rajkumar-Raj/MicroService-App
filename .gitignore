@@ -3,7 +3,7 @@
 ################################################################################
 
 /.vs
-/GateWayApp/Debug
+/GateWayApp/bin
 /GateWayApp/obj
-/CouponAPI/Debug
+/CouponAPI/bin
 /CouponAPI/obj
