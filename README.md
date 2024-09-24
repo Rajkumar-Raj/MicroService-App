@@ -26,7 +26,7 @@ Gateway App
 
 ````
 
-3. Program.cs file
+3. Program.cs file,
     add the below code before var app = builder.Build();
      ````
         builder.Configuration.AddJsonFile("ocelot.json", optional: false, reloadOnChange: true);
