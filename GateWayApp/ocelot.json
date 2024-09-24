@@ -1,0 +1,19 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/CouponsAPI",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7771
+        }
+      ],
+      "UpstreamPathTemplate": "/api/CouponsAPI",
+      "UpstreamHttpMethod": [ "GET" ]
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "https://localhost:7770"
+  }
+}
